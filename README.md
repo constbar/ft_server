@@ -9,7 +9,7 @@ the project also have a self-signed certificate OpenSSL and an autoindex script 
 ### how to use
 before launching `docker` should be installed.
 
-to launch the project:
+**to launch the project:**
 ```
 bash start.sh
 ```
@@ -17,7 +17,7 @@ go to the site `https://www.localhost`
 
 to enter to phpMyAdmin: username `admin` pass `password`
 
-to stop the project and delete docker images:
+**to stop the project and delete docker images:**
 ```
 bash stop.sh
 docker rmi lemp_serv:latest

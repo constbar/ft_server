@@ -1,6 +1,4 @@
 FROM debian:buster
-LABEL maintainer="agroup@student.21-school.ru"
-ENV ADMIN="agroup"
 
 RUN apt-get -y update
 RUN apt-get -y upgrade
@@ -25,7 +23,7 @@ RUN tar xvf phpMyAdmin-5.0.4-all-languages.tar.gz
 RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 	-keyout /etc/ssl/private/nginx-selfsigned.key \
 	-out /etc/ssl/certs/nginx-selfsigned.crt \
-	-subj "/C=RU/ST=Ivanovskaya/L=Ivanovo/O=ecole42/OU=school21/CN=agroup"
+	-subj "/C=RU/L=Moscow/O=ecole42/OU=school21/CN=constbar"
 
 # local dir
 RUN mv phpMyAdmin-5.0.4-all-languages /var/www/html/phpmyadmin 

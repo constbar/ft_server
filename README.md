@@ -15,7 +15,7 @@ bash start.sh
 ```
 go to the site `https://www.localhost`
 
-to check phpMyAdmin: username `admin` and pass `password`
+to enter to phpMyAdmin: username `admin` pass `password`
 
 to stop the project and delete docker images:
 ```

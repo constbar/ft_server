@@ -1,6 +1,6 @@
 ## ft_server
 
-project of 42 school where it is necessary to implement own LEMP web server in only one docker container.
+project of École 42 where it is necessary to implement own LEMP web server in only one docker container.
 
 it must run a wordpress with a mysql database and phpMyAdmin.
 
